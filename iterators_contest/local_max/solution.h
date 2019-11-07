@@ -4,6 +4,6 @@
 
 using iterator = std::vector<int>::iterator;
 
-iterator FindLast(iterator first, iterator last) {
+iterator LocalMax(iterator first, iterator last) {
     // your code here
 }
