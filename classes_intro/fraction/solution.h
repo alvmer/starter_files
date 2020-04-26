@@ -9,7 +9,7 @@ class Fraction {
  public:
   Fraction();
   Fraction(int num, int den);
-  explicit Fraction(int num); // explicit now just for PCF :)
+  explicit Fraction(int num); // explicit here is just for PCF :)
   Fraction(const Fraction& other);
   ~Fraction();
 
