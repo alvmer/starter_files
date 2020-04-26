@@ -1,7 +1,7 @@
 #pragma once
 #include <exception>
 
-int gcd(int a, int b) {
+int gcd(int first_number, int second_number) {
   throw std::logic_error("Not implemented");
 }
 
@@ -9,7 +9,7 @@ class Fraction {
  public:
   Fraction();
   Fraction(int num, int den);
-  Fraction(int num);
+  explicit Fraction(int num); // explicit now just for PCF :)
   Fraction(const Fraction& other);
   ~Fraction();
 
