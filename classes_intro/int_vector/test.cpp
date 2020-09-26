@@ -1,7 +1,8 @@
- #include <iostream> 
+#include <iostream> 
 
-#include "testing.h"
 #include "solution.h"
+#include "testing.h"
+
 
 void Check(const IntVector& actual, const std::vector<int>& expected) {
     ASSERT_EQ(actual.Size(), expected.size());
